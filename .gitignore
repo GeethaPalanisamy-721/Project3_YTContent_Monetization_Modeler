@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+.env
+
+# Data
+data/cleaned/*
+!data/cleaned/.gitkeep
+
+# Artifacts
+artifacts/*
+!artifacts/.gitkeep
+
+# IDE
+.vscode/
+
+#package meta data
+*.egg-info
